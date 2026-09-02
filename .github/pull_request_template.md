@@ -1,64 +1,53 @@
-## Descrição
-
-<!-- Descreva objetivamente o que foi implementado ou alterado neste PR. -->
-
-
-## Issue / HU relacionada
-
-<!--
-Informe a HU centralizada no repositório de documentação.
-
-Exemplo de rastreabilidade: Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs#42
-Para fechar automaticamente a HU quando este PR for mesclado, use:
-Closes Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs#42
-
-Use "Closes", "Fixes" ou "Resolves" apenas quando este PR concluir integralmente
-a HU. Caso a HU dependa de outros PRs, mantenha somente a referência.
+<!-- 
+INSTRUÇÕES PARA A IA (E DESENVOLVEDOR):
+Gere uma descrição concisa, técnica e direta ao ponto com base nos commits e diff:
+- Evite enrolação, introduções vazias ou repetições.
+- Foque no essencial: o problema, a decisão tomada (o "como"), as mudanças e como testar.
+- Não faça uma lista exaustiva de todos os arquivos; foque no fluxo e nas regras alteradas.
 -->
 
-- HU: Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs#
+## O que e Por que
+<!-- 
+Em 1 ou 2 parágrafos objetivos:
+- Qual problema, regra de negócio ou necessidade técnica motivou esta alteração?
+-->
 
 
-## Tipo de alteração
-
-- [ ] Nova funcionalidade
-- [ ] Correção de bug
-- [ ] Refatoração
-- [ ] Documentação
-- [ ] Melhoria de desempenho
-- [ ] Configuração / infraestrutura
-- [ ] Testes
-- [ ] Segurança
-- [ ] Outro:
+## Como foi feito
+<!-- 
+Explique a estratégia e lógica da implementação de forma direta:
+- Qual foi a abordagem técnica e o fluxo adotado?
+- Por que foi feito dessa forma? Houve alguma decisão técnica importante?
+-->
 
 
-## Testes
+## Rastreabilidade
+- Issue/HU: Paraiba-Hot-Dog/Paraiba-Hot-Dog-Docs#
 
-<!-- Descreva os testes realizados e como validar as alterações. -->
 
-- [ ] Testes automatizados
-- [ ] Testes manuais
-- [ ] Não se aplica
+## Principais Mudanças
+<!-- 
+Destaque em tópicos curtos as mudanças centrais (ex: novas regras, endpoints, queries, componentes):
+- 
+-->
 
-### Como testar
 
-<!-- Descreva os passos necessários para validar este PR. -->
+## Pontos de Atenção & Riscos
+<!-- 
+Há migração de banco, nova variável no .env, dependência nova ou quebra de compatibilidade? 
+(Se não houver nenhum, escreva apenas "Nenhum").
+-->
+
+
+## Como Testar
+<!-- 
+Passos rápidos e objetivos para o revisor reproduzir e validar:
+1. 
+-->
 
 
 ## Evidências
-
-<!--
-Adicione screenshots, vídeos, logs ou outras evidências quando aplicável.
-Para alterações exclusivamente de backend ou documentação, informe "Não se aplica".
+<!-- 
+Obrigatório apenas se houver alteração no Front-end (prints ou vídeos curtos da interface).
+Para alterações exclusivas de Backend, Infraestrutura ou Documentação, informe "Não se aplica".
 -->
-
-
-## Checklist
-
-- [ ] O código foi revisado e está de acordo com os padrões do projeto
-- [ ] Testes foram adicionados ou atualizados quando necessário
-- [ ] Todos os testes existentes continuam passando
-- [ ] A documentação foi atualizada quando necessário
-- [ ] Não foram incluídas informações sensíveis
-- [ ] O PR está relacionado à Issue/HU correspondente
-- [ ] O PR está pronto para revisão
